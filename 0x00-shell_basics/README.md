@@ -1,1 +1,1 @@
-I am triying to do my Alx assignment of Linux week 2
+I am working on my Alx Linux assignment of week 2
