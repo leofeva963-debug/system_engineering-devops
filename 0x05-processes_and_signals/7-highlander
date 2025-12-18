@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # A Bash script that handles SIGTERM and keeps running
 
-handle_sigterm() {
+trap_handler() {
   echo "I am invincible!!!"
 }
 
-trap handle_sigterm SIGTERM
+trap trap_handler SIGTERM
 
 while true
 do
