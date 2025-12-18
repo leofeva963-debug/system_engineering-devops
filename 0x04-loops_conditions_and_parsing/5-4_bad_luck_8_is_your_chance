@@ -1,4 +1,4 @@
- #!/usr/bin/env bash
+#!/usr/bin/env bash
 # This script loops from 1 to 10 and prints different messages based on the iteration
 i=1
 while [ $i -le 10 ]
