@@ -2,7 +2,7 @@
 # A Bash script that displays the PID and full path of all processes containing "bash"
 
 for pid in $(pgrep bash); do
-    if [ -e /proc/$pid/exe ]; then
-        echo "$pid $(readlink -f /proc/$pid/exe)"
+    if [ -e "/proc/$pid/exe" ]; then
+        echo "$pid $(readlink -f "/proc/$pid/exe")"
     fi
 done
