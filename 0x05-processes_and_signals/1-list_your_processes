@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
-# A Bash script that displays all running processes with STARTED column and hierarchy
+# A Bash script that displays a list of all currently running processes
+# including processes from all users, processes without a TTY, in a
+# human-readable format, and showing the process hierarchy.
 
-ps -eo user,start,time,command --forest | sed '1s/START/STARTED/'
+ps auxf
